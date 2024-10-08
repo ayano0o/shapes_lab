@@ -8,8 +8,7 @@ private:
    int radius;
 
 public:
-   explicit circle(int area);
-   explicit circle(int perimeter);
+   explicit circle(int radius);
    int getArea() override;
    int getPerimeter() override;
 

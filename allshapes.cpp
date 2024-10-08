@@ -4,14 +4,9 @@
 
 using namespace std;
 
-circle :: circle(int area)
+circle :: circle(int radius)
 {
-  this->area = area;
-}
-
-circle :: circle(int perimeter)
-{
-  this->perimeter = perimeter;
+  this->radius = radius;
 }
 
 int circle :: getArea()
