@@ -22,14 +22,10 @@ int circle :: getPerimeter()
 
 
 
-rectangle :: rectangle(int area)
+rectangle :: rectangle(int length, int width)
 {
-  this->area = area;
-}
-
-rectangle :: rectangle(int perimeter)
-{
-  this->perimeter = perimeter;
+  this->length = length;
+  this->width = width;
 }
 
 int rectangle :: getArea()
@@ -45,14 +41,10 @@ int rectangle :: getPerimeter()
 
 
 
-rightTriangle :: rightTriangle(int area)
+rightTriangle :: rightTriangle(int leg1, int leg2)
 {
-  this->area = area;
-}
-
-rightTriangle :: rightTriangle(int perimeter)
-{
-  this->perimeter = perimeter;
+  this->leg1 = leg1;
+  this->leg2 = leg2;
 }
 
 int rightTriangle :: getArea()
