@@ -3,10 +3,10 @@
 class circle : public shape {
 
 private:
-   int radius;
+   double radius;
 
 public:
-   explicit circle(int radius);
+   explicit circle(double radius);
    double getArea() override;
    double getPerimeter() override;
 
@@ -15,11 +15,11 @@ public:
 class rectangle : public shape {
 
 private:
-   int length;
-   int width;
+   double length;
+   double width;
 
 public: 
-   explicit rectangle (int length, int width);
+   explicit rectangle (double length, double width);
    double getArea() override;
    double getPerimeter() override;
 
@@ -29,11 +29,11 @@ public:
 class rightTriangle : public shape {
 
 private:
-   int leg1;
-   int leg2;
+   double leg1;
+   double leg2;
 
 public: 
-   explicit rightTriangle(int leg1, int leg2);
+   explicit rightTriangle(double leg1, double leg2);
    double getArea() override;
    double getPerimeter() override;
 

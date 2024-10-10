@@ -4,7 +4,7 @@
 
 using namespace std;
 
-circle :: circle(int radius)
+circle :: circle(double radius)
 {
   this->radius = radius;
 }
@@ -22,7 +22,7 @@ double circle :: getPerimeter()
 
 
 
-rectangle :: rectangle(int length, int width)
+rectangle :: rectangle(double length, double width)
 {
   this->length = length;
   this->width = width;
@@ -41,7 +41,7 @@ double rectangle :: getPerimeter()
 
 
 
-rightTriangle :: rightTriangle(int leg1, int leg2)
+rightTriangle :: rightTriangle(double leg1, double leg2)
 {
   this->leg1 = leg1;
   this->leg2 = leg2;
