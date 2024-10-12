@@ -38,12 +38,13 @@ public:
    double getPerimeter() override;
 
 };
+
 class square : public rectangle {
 public:
-   explicit square(int side) : rectangle(side, side) {}
+    explicit square(int side);  
 };
 
 class isoscelesRightTriangle : public rightTriangle {
 public:
-   explicit isoscelesRightTriangle(int leg) : rightTriangle(leg, leg) {}
+    explicit isoscelesRightTriangle(int leg);  
 };

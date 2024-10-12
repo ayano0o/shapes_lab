@@ -1,4 +1,3 @@
-#include <iostream>
 #include <cmath>
 #include "allshapes.hpp"
 
@@ -57,3 +56,6 @@ double rightTriangle :: getPerimeter()
     return this->leg1+this->leg2+(sqrt(pow(this->leg1, 2.0)+pow(this->leg2, 2.0)));
 };
 
+square::square(int side) : rectangle(side, side) {}
+
+isoscelesRightTriangle::isoscelesRightTriangle(int leg) : rightTriangle(leg, leg) {}
