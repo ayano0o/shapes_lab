@@ -26,8 +26,8 @@ int main() {
 
   
     isoscelesRightTriangle it(5);
-    //this assert statement is the only thing wrong with the program
-    //assert(it.getArea() == 12.5);
+    
+    assert(abs(it.getArea() - 12.5) < 1e-9);
     assert(abs(it.getPerimeter() - (5 + 5 + sqrt(2)*5)) < 1e-9);  
 
     cout << "All tests passed!" << endl;
