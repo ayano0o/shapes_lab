@@ -1,3 +1,1 @@
-  // circle c(10);
-  // assert(c.getArea() == 314.16);
-  // assert(c.getPerimeter() == 62.83);
+assert(printAreaToScreen(&it) == "The area of the Isosceles right triangle is 12.50");
